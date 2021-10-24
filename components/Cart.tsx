@@ -12,9 +12,9 @@ export const Cart: React.FC<CartProps> = ({ count, toggleCart, setCount }) => {
   };
 
   return (
-    <div className="absolute w-screen z-30 right-0 lg:-right-40 top-12 slide-in-blurred-top  flex justify-center items-center">
+    <div className="absolute w-screen lg:w-auto z-30 right-0 lg:-right-40 top-12 slide-in-blurred-top  flex justify-center items-center">
       <div
-        className=" bg-white shadow-lg w-90vw lg:w-auto flex-col rounded-md "
+        className=" bg-white shadow-lg w-90vw  lg:w-auto flex-col rounded-md "
         style={cartContainerStyle}
       >
         {count !== 0 ? (
